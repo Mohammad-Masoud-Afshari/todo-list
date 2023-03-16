@@ -1,0 +1,11 @@
+POST http://localhost:5500/api/item
+Content-Type: application/json
+
+{
+"item": "This is the one todo item"
+}
+
+###
+
+GET http://localhost:5500/api/items
+Content-Type: application/json
